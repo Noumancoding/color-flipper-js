@@ -5,3 +5,7 @@ body {
     text-align: center;
     padding: 60px;
 }
+
+.container {
+    max-width: 500px;
+}
