@@ -13,7 +13,7 @@ const colors = [
 btn.addEventListener("click", () => {
   const index = Math.floor(Math.random() * colors.length);
   const selectedColor = colors[index];
-  
+
   document.body.style.backgroundColor = selectedColor;
   colorText.textContent = selectedColor;
 });
