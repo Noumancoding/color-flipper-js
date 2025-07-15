@@ -3,11 +3,12 @@ body {
     background-color: #ffffff;
     color: #333;
     text-align: center;
-    padding: 60px;
+    padding: 60px; /* Or 20px based on your design */
 }
 
 .container {
     max-width: 500px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -17,8 +18,5 @@ h1 {
 #flipBtn {
     padding: 12px 24px;
     font-size: 17px;
-}
-
-body {
-  padding: 20px;
+    cursor: pointer;
 }
