@@ -3,20 +3,44 @@ body {
     background-color: #ffffff;
     color: #333;
     text-align: center;
-    padding: 60px; /* Or 20px based on your design */
+    padding: 60px;
+    transition: background-color 0.4s ease-in-out;
 }
 
 .container {
-    max-width: 500px;
-    margin: 0 auto;
+    max-width: 600px;
+    margin: 0 auto
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
     font-size: 34px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#color-value {
+    font-weight: bold;
 }
 
 #flipBtn {
     padding: 12px 24px;
     font-size: 17px;
     cursor: pointer;
+    border: none;
+    background-color: #2196f3;
+    color: white;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+#flipBtn:hover {
+    background-color: #1976d2;
 }
